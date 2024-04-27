@@ -1,0 +1,11 @@
+核心：
+1.每一层backtracking都用于完整的数据，只不过通过used[i]的真值或者startIndex进行选择性隐藏；
+2.组合问题和排列问题是在树形结构的叶子节点上收集结果，而子集问题就是取树上所有节点的结果。
+
+
+@startIndex:用于组合问题；
+@startIndex=i or i++ ：用于是否可以重复选取
+@res.push_back(path) outside of the 'if' statement : 用于获取backtrackingTree中是否需要allNodes或者leafNodes
+@path.size():可以控制递归层数、Tree深度
+@/sort + [i]==[i-1]/ + used[i]=true：可以控制 'the same level duplication'
+@usedSet:used数组升级版，可以在no sort状态下 进行 'the same level deduplicatide'
