@@ -1,3 +1,8 @@
 {
-    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+  "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+
+  "C_Cpp.default.cppStandard": "c++17", // 适用于 VSCode C/C++扩展
+  "clangd.arguments": [
+    "--std=c++17" // Clangd 使用 C++17 标准
+  ]
 }
