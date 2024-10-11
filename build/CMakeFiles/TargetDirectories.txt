@@ -1,0 +1,3 @@
+/Users/henrifox/#code#/algorithm_code/cpp_leetcode/leecodeBasic/build/CMakeFiles/leetcode_cpp.dir
+/Users/henrifox/#code#/algorithm_code/cpp_leetcode/leecodeBasic/build/CMakeFiles/edit_cache.dir
+/Users/henrifox/#code#/algorithm_code/cpp_leetcode/leecodeBasic/build/CMakeFiles/rebuild_cache.dir

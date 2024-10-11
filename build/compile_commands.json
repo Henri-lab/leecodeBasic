@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/henrifox/#code#/algorithm_code/cpp_leetcode/leecodeBasic/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/leetcode_cpp.dir/main.cpp.o -c \"/Users/henrifox/#code#/algorithm_code/cpp_leetcode/leecodeBasic/main.cpp\"",
+  "file": "/Users/henrifox/#code#/algorithm_code/cpp_leetcode/leecodeBasic/main.cpp",
+  "output": "CMakeFiles/leetcode_cpp.dir/main.cpp.o"
+}
+]
