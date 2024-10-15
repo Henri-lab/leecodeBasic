@@ -1,13 +1,78 @@
 {
   "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
   "C_Cpp.default.cppStandard": "c++17", // 适用于 VSCode C/C++扩展
+  
   // "code-runner.executorMap": {//导入include文件夹所有头文件
   //   "cpp": "cd $dir && clang++ -I include/ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
   // },
+
+  // clangd server启动失败 暂时使用C/C++ plugin辅助
+  "C_Cpp.intelliSenseEngine": "default",
   "clangd.arguments": [
     "--std=c++17", // Clangd 使用 C++17 标准
-    "--compile-commands-dir=.",
+    "--compile-commands-dir=./",
     "--header-insertion=never",
-    "-I/include"
-  ]
+    "-I/incl"
+  ],
+  "files.associations": {
+    "vector": "cpp",
+    "__hash_table": "cpp",
+    "__split_buffer": "cpp",
+    "__tree": "cpp",
+    "array": "cpp",
+    "bitset": "cpp",
+    "deque": "cpp",
+    "initializer_list": "cpp",
+    "list": "cpp",
+    "map": "cpp",
+    "queue": "cpp",
+    "regex": "cpp",
+    "set": "cpp",
+    "stack": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "__bit_reference": "cpp",
+    "__config": "cpp",
+    "__locale": "cpp",
+    "__node_handle": "cpp",
+    "__threading_support": "cpp",
+    "__verbose_abort": "cpp",
+    "cctype": "cpp",
+    "clocale": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp",
+    "cstdarg": "cpp",
+    "cstddef": "cpp",
+    "cstdint": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "cwchar": "cpp",
+    "cwctype": "cpp",
+    "execution": "cpp",
+    "forward_list": "cpp",
+    "fstream": "cpp",
+    "iomanip": "cpp",
+    "ios": "cpp",
+    "iosfwd": "cpp",
+    "iostream": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "locale": "cpp",
+    "mutex": "cpp",
+    "new": "cpp",
+    "optional": "cpp",
+    "ostream": "cpp",
+    "ratio": "cpp",
+    "sstream": "cpp",
+    "stdexcept": "cpp",
+    "streambuf": "cpp",
+    "tuple": "cpp",
+    "typeinfo": "cpp",
+    "variant": "cpp",
+    "algorithm": "cpp"
+  }
 }

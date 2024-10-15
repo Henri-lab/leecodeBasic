@@ -8,8 +8,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_COMPILER "/usr/bin/clang++")
 set(CMAKE_C_COMPILER "/usr/bin/clang")
 
+add_subdirectory(third_party/googletest)
+
 # 添加头文件搜索路径
-include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${CMAKE_SOURCE_DIR}/include,third_party/googletest/include)
 
 add_executable(leetcode_cpp main.cpp)
 
