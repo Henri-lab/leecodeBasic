@@ -8,5 +8,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_COMPILER "/usr/bin/clang++")
 set(CMAKE_C_COMPILER "/usr/bin/clang")
 
+# 添加头文件搜索路径
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
 add_executable(leetcode_cpp main.cpp)
 
