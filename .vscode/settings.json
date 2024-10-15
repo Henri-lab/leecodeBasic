@@ -1,8 +1,13 @@
 {
   "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
-
   "C_Cpp.default.cppStandard": "c++17", // 适用于 VSCode C/C++扩展
+  // "code-runner.executorMap": {//导入include文件夹所有头文件
+  //   "cpp": "cd $dir && clang++ -I include/ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+  // },
   "clangd.arguments": [
-    "--std=c++17" // Clangd 使用 C++17 标准
+    "--std=c++17", // Clangd 使用 C++17 标准
+    "--compile-commands-dir=.",
+    "--header-insertion=never",
+    "-I/include"
   ]
 }
